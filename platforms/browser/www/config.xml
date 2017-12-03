@@ -8,5 +8,8 @@
         PhoneGap Team
     </author>
     <content src="index.html" />
-    <access origin="*" />
+    <access launch-external="yes" origin="*" />
+    <allow-navigation href="http://192.168.1.70/*" />
+    <preference name="orientation" value="landscape" />
+    <preference name="permissions" value="all" />
 </widget>
