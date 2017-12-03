@@ -13,4 +13,6 @@
     <preference name="permissions" value="all" />
     <allow-navigation href="*" />
     <engine name="android" spec="~6.3.0" />
+
+    <gap:plugin name="cordova-plugin-whitelist" version="1.0.0" source="npm" />
 </widget>
